@@ -1,0 +1,40 @@
+.Navbarcontainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 20px;
+
+  .logo {
+    color: #e5dfd9;
+    font-weight: 400;
+    width: 208px;
+    height: 28.34px;
+    letter-spacing: 0.55em;
+    margin-left: 50px;
+    font-family: "Comme";
+    font-style: normal;
+    font-size: 20px;
+    line-height: 28px;
+  }
+
+  .menuitemcontainer {
+    margin-right: 1rem;
+    display: flex;
+
+    ul {
+      display: flex;
+      gap: 2rem;
+
+      li {
+        font-family: "Font Awesome 5 Pro";
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 18px;
+        color: #e5dfd9;
+        list-style: none;
+        cursor: pointer;
+      }
+    }
+  }
+}

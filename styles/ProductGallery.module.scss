@@ -1,0 +1,108 @@
+.maincardcontainer {
+  display: flex;
+  margin: 1rem;
+  flex-wrap: wrap;
+  .cardcontainer {
+    font-family: "Encode Sans";
+    font-style: normal;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    margin: 2rem 2.6rem;
+
+    .card {
+      width: 288px;
+      height: 432px;
+      border-radius: 6.6px 6.6px 0px 0px;
+      position: relative;
+
+      .bookmark {
+        svg {
+          position: absolute;
+          z-index: 10;
+          right: 13px;
+          top: 17px;
+          cursor: pointer;
+        }
+      }
+
+      .imagecontainer {
+        border-radius: 12px 12px 0px 0px;
+        overflow: hidden;
+      }
+    }
+
+    .bottomitemcontainer {
+      background-color: #141414;
+      display: flex;
+      justify-content: space-between;
+      flex-direction: column;
+      width: 288px;
+      height: 123px;
+      border-radius: 0px 0px 17px 17px;
+
+      .productname {
+        width: 247px;
+        letter-spacing: 2px;
+        text-align: left;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+        overflow: hidden;
+        font-weight: 500;
+        font-size: 20.5px;
+        margin: 1.5rem 0.5rem 0rem;
+      }
+
+      .price_box {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin: 0.5rem;
+
+        .pricecontainer {
+          display: flex;
+          width: 48px;
+          height: 23px;
+          font-weight: 700;
+          font-size: 19px;
+          line-height: 31px;
+          color: #e5dfd9;
+          gap: 3px;
+
+          .mktprice {
+            font-size: 19px;
+            line-height: 23px;
+          }
+
+          .actualprice {
+            font-weight: 400;
+            font-size: 12px;
+            text-decoration: line-through;
+          }
+
+          .special_price {
+            display: flex;
+            justify-content: space-around;
+            width: 68%;
+          }
+
+          .discount {
+            color: #2fc14f;
+            font-size: 12px;
+          }
+        }
+      }
+
+      .bagicon {
+        margin-right: 3px;
+        cursor: pointer;
+      }
+    }
+  }
+}
+.loading {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

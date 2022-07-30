@@ -1,0 +1,15 @@
+.ProductImageContainer {
+  display: flex;
+  flex-direction: row;
+  overflow-y: scroll;
+  margin-top: 30px;
+
+  .innerimage {
+    margin: 0rem 3.4rem;
+    cursor: pointer;
+  }
+
+  &::-webkit-scrollbar {
+    width: 0 !important;
+  }
+}

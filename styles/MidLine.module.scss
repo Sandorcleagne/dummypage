@@ -1,0 +1,27 @@
+.namecontainer {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 38px;
+  width: 96%;
+  color: #e5dfd9;
+  font-family: "Encode Sans";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  letter-spacing: 0.1em;
+
+  .leftitemcontainer {
+    display: flex;
+    margin-left: 3.4rem;
+    gap: 4px;
+  }
+
+  .rightitemcontainer {
+    display: flex;
+    gap: 14px;
+    .vector {
+      cursor: pointer;
+    }
+  }
+}

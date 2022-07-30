@@ -1,0 +1,19 @@
+.productcontainer {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin: 1.5rem 25rem 0rem;
+
+  .productname {
+    font-family: "Encode Sans";
+    cursor: pointer;
+    font-weight: 400;
+    font-size: 14px;
+    color: #e5dfd9;
+    letter-spacing: 0.1em;
+  }
+
+  :hover {
+    color: #666461;
+  }
+}
