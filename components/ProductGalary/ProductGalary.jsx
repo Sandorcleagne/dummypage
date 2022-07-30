@@ -40,7 +40,7 @@ const ProductGalary = () => {
                     />
                   ) : (
                     <Image
-                      src={"/placeholder.png"}
+                      src={placeholder.png}
                       width={288.39}
                       height={432.53}
                       alt="default img"
